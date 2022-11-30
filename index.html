@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href ="./assets/logoBlack.png" type="image/x-icon">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Ella Cairns</title>
+</head>
+<body>
+    <section id="landing">
+        <div class="landing__container">
+           <div class="row">
+            <nav>
+                <div class="nav__container">
+                    <div class="nav__logo">
+                        <a href="" class="nav__logo--name">Ella Cairns</a>
+                    </div>
+                    <div class="nav__links">
+                        <a href="./works.html" class="
+                                nav__links--text
+                                link__hover-effect
+                                link__hover-effect--black">Works</a>
+                        <a href="#info" class="
+                                nav__links--text
+                                link__hover-effect
+                                link__hover-effect--black">About</a>
+                        <a href="./cv.html" class="
+                                nav__links--text
+                                link__hover-effect
+                                link__hover-effect--black">CV</a>
+                        <a href="mailto:ellacairns.info@gmail.com" class="btn nav__links--text">Contact Me!</a>
+                    </div>
+                    <button class="btn__menu btn__open" onclick="openMenu()">
+                        <i class="fas fa-bars btn__menu--icon"></i>
+                    </button>
+                </div>
+                <div class="menu__backdrop">
+                    <div class="menu__links--wrapper">
+                        <a href="./works.html" class="
+                                nav__menu--link
+                                link__hover-effect
+                                link__hover-effect--black
+                                is__active">Works</a>
+                        <a href="#info" class="
+                                nav__menu--link
+                                link__hover-effect
+                                link__hover-effect--black">About</a>
+                        <a href="./cv.html" class="
+                                nav__menu--link
+                                link__hover-effect
+                                link__hover-effect--black">CV</a>
+                        <a href="mailto:ellacairns.info@gmail.com" class="btn btn__menu--contact">Contact Me!</a>
+                    </div>
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times btn__close--icon"></i>
+                    </button>
+                </div>
+            </nav>
+            <header class="header__container">
+                <div class="header__row">
+                    <div class="about__container">
+                        <figure class="about__logo--mask">
+                            <img src="./assets/logoBlack.png" alt="" class="about__logo">
+                        </figure>
+                        <div class="about__info">
+                            <h1 class="about__info--title">Hey! I'm Ella Cairns <span class="wave">👋🏻</span></h1>
+                            <p class="about__info--para">I am a multidisciplinary artist weaving history and folklore into personal narratives using sculpture, drawing and printmaking. <br><span class="about__info--extra">Scroll below to see my work</span></p>
+                            <div class="about__info--links">
+                                <a href="" class="about__info--link" target="_blank">
+                                    <i class="fab fa-instagram about__info--icon"></i>
+                                </a>
+                                <a href="" class="about__info--link" target="_blank">
+                                    <i class="far fa-envelope about__info--icon"></i>
+                                </a>
+                                <a href="" class="about__info--link" target="_blank">
+                                    <i class="fas fa-file-pdf about__info--icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <figure class="about__img--wrapper">
+                            <img src="./assets/HykeySpirits.png" alt="" class="about__img">
+                        </figure>
+                    </div>
+                </div>
+            </header>
+           </div> 
+        </div>
+    </section>
+    <main>
+        <section id="works">
+            <div class="notop__container">
+                <div class="row">
+                    <div class="works__container">
+                        <div class="works__title">Here are some of my <span class="bold">works</span></div>
+                        <ul class="works__art--container">
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/hitchingARide.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Hitching a Ride</h3>
+                                        <h4 class="works__desc--year">2022</h4>
+                                        <p class="works__desc--para">Earthenware, oxides, slip, glaze</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/ritualExcerpt.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Ritual Excerpt</h3>
+                                        <h4 class="works__desc--year">2020</h4>
+                                        <p class="works__desc--para">Ghost screen print on paper</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/strangeMoon.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Strange Moon</h3>
+                                        <h4 class="works__desc--year">2020</h4>
+                                        <p class="works__desc--para">Linoprint on card, 9 x 9</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/ritualMovement.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Ritual Movement</h3>
+                                        <h4 class="works__desc--year">2020</h4>
+                                        <p class="works__desc--para">Linoprint on paper</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/untitledThing.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Untitled</h3>
+                                        <h4 class="works__desc--year">2020</h4>
+                                        <p class="works__desc--para">Charcoal & oil pastel on paper</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/untitledPortal1.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Untitled (Portal I)</h3>
+                                        <h4 class="works__desc--year">2022</h4>
+                                        <p class="works__desc--para">Stoneware, oxides. <br> Soft pastel and airbrush on paper</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__art--mask">
+                                <div class="works__art--wrapper">
+                                    <img src="./assets/dancingStone.jpg" alt="" class="works__art">
+                                    <div class="works__art--desc">
+                                        <h3 class="works__desc--title">Dancing Stone</h3>
+                                        <h4 class="works__desc--year">2020</h4>
+                                        <p class="works__desc--para">Manipulated digital image</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="info">
+            <div class="container">
+                <div class="small__row">
+                    <div class="info__container">
+                        <div class="info__title">A little more about me...</div>
+                        <div class="info__para">
+                            <p class="info__para--p">I am a multidisciplinary artist weaving history and folklore into personal narratives using sculpture, drawing and printmaking. The rural meets the magical in a space between worlds, signifying the importance of the surreal as a source of inspiration.</p>
+                            <p class="info__para--p">Anchored in the liminal; I reach under, over, behind and through for that space in-between. Supernatural architecture, metamorphic creatures and strange lands are thin places, where the veil is lowered and things may move freely between worlds. My work is powered by the unknown, not looking to find reason but to further question unexplained happenings through recurring imagery and symbols.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container footer__row">
+            <a href="#" class="footer__anchor">
+                <figure class="footer__logo--mask">
+                    <img src="./assets/logoBlack.png" alt="" class="footer__logo--img filter--white">
+                </figure>
+                <span class="footer__logo--popper">
+                    Top
+                    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+                </span>
+            </a>
+            <div class="footer__social--list">
+                <a href="" class="
+                        footer__social--link
+                        link__hover-effect
+                        link__hover-effect--white">Instagram</a>
+                <a href="mailto:ellacairns.info@gmail.com" class="
+                        footer__social--link
+                        link__hover-effect
+                        link__hover-effect--white">Email</a>
+                <a href="" class="
+                        footer__social--link
+                        link__hover-effect
+                        link__hover-effect--white">Resume</a>
+            </div>
+            <div class="footer__copyright">Copyright 2022 | Ella ©airns</div>
+        </div>
+    </footer>
+</body>
+</html>
