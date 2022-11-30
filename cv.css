@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, span {
     align-items: center;
     font-weight: 600;
     margin-bottom: 32px;
-    animation: slide--right 800ms 200ms ease;
+    animation: slide--right 800ms 0ms ease;
 }
 
 .nav__logo {
