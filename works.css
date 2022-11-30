@@ -453,3 +453,9 @@ footer {
             bottom: 5px;
         }
     }
+
+@media (max-width: 480px) {
+        .works__desc--title {
+            font-size: 24px;
+        }
+}
